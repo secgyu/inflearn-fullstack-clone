@@ -13,3 +13,15 @@ export function saltAndHashPassword(password: string): string {
 export function comparePassword(password: string, hashedPassword: string): boolean {
   return bcrypt.compareSync(password, hashedPassword);
 }
+
+
+///
+/// 솔트
+///
+/// !@2^&@$&#$#$&#$&#$!@%^@$^
+//
+//
+// #abc2363
+/// !@#^@#%*$(%^!@$!2727%!@%!%@
+/// !@!@%^@$^ ->
+/// 
